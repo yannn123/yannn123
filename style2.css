@@ -1,0 +1,47 @@
+    /* Style untuk tampilan menu special */
+    /* Style untuk tampilan menu special */
+.menu-special {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+    background-image: url('Wallpaper.jpg'); /* Ganti 'Wallpaper.jpg' dengan lokasi gambar latar belakang Anda */
+    background-size: 100% 100%; /* Gambar latar belakang mengisi seluruh elemen */
+    background-position: center; /* Posisi gambar latar belakang di tengah elemen */
+    background-attachment: fixed; /* Tetapkan gambar latar belakang ketika scrolling */
+}
+
+    .special-item {
+        text-align: center;
+        object-fit: cover;
+        padding: 20px;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 30px;
+        width: 30%;
+        margin: 10px;
+        background-color: rgba(255, 250, 250, 0.422); /* Warna latar belakang */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan (shadow) */
+    }
+
+    .special-item img {
+        width: 100%;
+        max-height: 150px;
+        object-fit: contain;
+    }
+
+    .special-item h2 {
+        margin-top: 10px;
+        color: rgb(25, 19, 19); /* Warna teks judul */
+    }
+
+    .special-item p {
+        margin: 10px 0;
+        color: rgb(0, 0, 0); /* Warna teks deskripsi */
+        font-weight: 100px;
+    }
+
+    .special-item .price {
+        font-weight: bold;
+        color: #f00;
+        float: left
+    }

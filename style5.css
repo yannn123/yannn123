@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .transaction-container {
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transaction-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .transaction-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .transaction-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .transaction-id,
+  .transaction-date,
+  .transaction-description,
+  .transaction-amount {
+    display: block;
+    margin-bottom: 5px;
+  }
+  

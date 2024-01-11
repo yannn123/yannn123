@@ -1,0 +1,19 @@
+/* Reset margin dan padding agar tampilan footer rapi */
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Style dasar untuk footer */
+.footer {
+    background-color:black; /* Warna latar belakang footer */
+    color:white; /* Warna teks di footer */
+    padding: 20px; /* Jarak antara teks dengan batas footer */
+    text-align: center; /* Teks di tengah footer */
+}
+
+/* Style untuk link di dalam footer */
+.footer a {
+    color: rgb(56, 54, 54); /* Warna teks link */
+    text-decoration: none; /* Hapus garis bawah pada link */
+}
